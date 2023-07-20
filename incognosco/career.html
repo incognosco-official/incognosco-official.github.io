@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Incognosco: Collaborative Education Website</title>
+        <link rel="stylesheet" type="text/css" href="index.html">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/career.css">
+        
+
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:ital,wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Header--->
+        <header>
+            <div class="logo-container">
+                <img src="img/logov1.png" alt="Incognosco Logo" class="logo logov1">
+                <img src="img/logov2.png" alt="Incognosco Logo" class="logo logov2">
+            </div>
+            
+            <div class="bx bx-menu" id="menu-icon"></div>
+            
+            <div class="navigation" id="menu">
+                <ul>
+                    <li class="menu-item"><a href="index.html">Home</a></li>
+                    <li class="menu-item"><a href="index.html">About Us</a></li>
+                    <li class="menu-item"><a href="index.html">Services</a></li>
+                    <li class="menu-item"><a href="index.html">Team</a></li>
+                    <li class="menu-item"><a href="index.html">FAQ</a></li>
+                    <li class="menu-item"><a href="career.html">Career</a></li>
+                    <li class="menu-item"><a href="contactsales.html">Contact Sales</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <section id="home-career" class="home-career">
+            <div class="home-text">
+                <p>Unlock Your Potential: Join Our Team Today!</p>
+                <a href="#career" class="applynow-btn">Apply in Incognosco!</a>
+            </div>
+            
+        </section>
+
+        <section id="career-heading" class="career-heading">
+            <h6 class="career-text">Career</h6>
+            <p>Job Opening in IT Company. Apply Now!</p>
+        </section>
+
+        <section class="career-section" id="career">
+            <div class="career-form">
+                <form method="POST" enctype="multipart/form-data" class="career-form-method">
+                    <input type="text" name="name" placeholder="First Name" class="career-form-txt" required>
+                    <input type="text" name="name" placeholder="Last Name" class="career-form-txt" required>
+                    <input type="email" name="email" placeholder="Email" class="career-form-email" required>
+                    <input type="tel" id="phone" name="phone" pattern="[0-10]{11}" required placeholder="Phone Number" maxlength="11" class="career-form-phone">
+
+                    <div class="radio-class">
+                        <h2 class="name">What kind of job are you interested in applying for in Incognosco?</h2>
+                        <div class="radio-container">
+                            <label class="radio">
+                                <input class="radio-one" type="radio" name="status" value="Product Development and Technical Roles">
+                                <span class="checkmark"></span>
+                                Product Development and Technical Roles
+                            </label>
+                            <label class="radio">
+                                <input class="radio-two" type="radio" name="status" value="Sales and Marketing">
+                                <span class="checkmark"></span>
+                                Sales and Marketing
+                            </label>
+                            <label class="radio">
+                                <input class="radio-three" type="radio" name="status" value="Finance and Accounting">
+                                <span class="checkmark"></span>
+                                Finance and Accounting
+                            </label>
+                            <label class="radio">
+                                <input class="radio-four" type="radio" name="status" value="Content Creation and Instructional Design">
+                                <span class="checkmark"></span>
+                                Content Creation and Instructional Design
+                            </label>
+                            <label class="radio">
+                                <input class="radio-five" type="radio" name="status" value="Data Analysis and Reporting">
+                                <span class="checkmark"></span>
+                                Data Analysis and Reporting
+                            </label>
+                            <label class="radio">
+                                <input class="radio-six" type="radio"  name="status" value="Customer Support and Success">
+                                <span class="checkmark"></span>
+                                Customer Support and Success
+                            </label>
+                        </div>
+                    </div>
+                    <input type="number" id="experience" name="experience" required placeholder="Years of Experience" class="career-form-experience">
+                    <textarea placeholder="Other Details" name="details" class="career-form-txtarea" required></textarea>
+
+                    <div class="file">
+                        <h2 class="name">Upload Your Resume</h2>
+                        <input class="upload" type="file" name="fileToUpload" accept=".doc,.docx,.pdf"><br><br><br>
+                    </div>
+                    <input type="submit" value="Submit" name="submit" class="career-form-btn">
+                </form>
+            </div>
+        </section>
+
+        <div class="back-to-top" id="backToTop">
+            <i class='bx bx-up-arrow-alt'></i>
+        </div>
+
+       <!--Footer--->
+        <section id="contact">
+            <div class="footer">
+                <div class="main">
+                    <div class="list">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">About Us</a></li>
+                            <li><a href="terms.html">Terms & Conditions</a></li>
+                            <li><a href="terms.html">Privacy Policy</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="list">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li><a href="#">12 Onyx St., Brgy. La Paz</a></li>
+                            <li><a href="#">Makati City, Metro Manila</a></li>
+                            <li><a href="#">+1(123)-456-7890</a></li>
+                            <li><a href="#">dlucibelle@gmail.com</a></li>
+                            <li><a href="#">elyzadlaurente@gmail.com</a></li>
+                        </ul>
+                    </div>
+            
+                    <div class="list">
+                        <h4>Connect</h4>
+                        <div class="social">
+                            <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                            <a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt' ></i></a>
+                            <a href="https://twitter.com/login?lang=en"><i class='bx bxl-twitter'></i></a>
+                            <a href="https://www.linkedin.com/"><i class='bx bxl-linkedin'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <h4>Subscription</h4>
+                        <p>Our Incognosco experts have formed a versatile team, ready to meet all your educational platform needs. Stay updated with our latest offerings by subscribing here.</p>
+                        <form action="" method="post">
+                          <input type="email" name="email"><input type="submit"  value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="end-text">
+                <p>Copyright ©2023 All rights reserved | Made by Lucibelle D. Dellomos & Elyza Denise A. Laurente</p>
+            </div>
+        </section>
+
+        <!--link to js--->
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

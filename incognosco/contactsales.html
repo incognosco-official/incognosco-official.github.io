@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Incognosco: Collaborative Education Website</title>
+        <link rel="stylesheet" type="text/css" href="index.html">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/career.css">
+        <link rel="stylesheet" type="text/css" href="css/contactsales.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:ital,wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Header--->
+        <header>
+            <div class="logo-container">
+                <img src="img/logov1.png" alt="Incognosco Logo" class="logo logov1">
+                <img src="img/logov2.png" alt="Incognosco Logo" class="logo logov2">
+            </div>
+            
+            <div class="bx bx-menu" id="menu-icon"></div>
+            
+            <div class="navigation" id="menu">
+                <ul>
+                    <li class="menu-item"><a href="index.html">Home</a></li>
+                    <li class="menu-item"><a href="index.html">About Us</a></li>
+                    <li class="menu-item"><a href="index.html">Services</a></li>
+                    <li class="menu-item"><a href="index.html">Team</a></li>
+                    <li class="menu-item"><a href="index.html">FAQ</a></li>
+                    <li class="menu-item"><a href="career.html">Career</a></li>
+                    <li class="menu-item"><a href="contactsales.html">Contact Sales</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <section id="home-career" class="home-career">
+            
+            
+        </section>
+
+        <div class="whole">
+            <section id="contactsales-heading" class="contactsales-heading">
+                <h6 class="contactsales-text">Talk to Sales / Get a Demo</h6>
+                <p>Complete the form below to speak with a sales rep or to set up a personalized 1:1 demo.</p>
+            </section>
+
+            <!--Contact Sales--->
+            <div class="contactsales-container">
+                <section class="contactsales" id="contactsales">
+                    <div class="contact-row">
+                        <div class="column-form">
+                            <div class="form-column">
+                                <p class="no-margin">Talk to Sales / Request a Demo</p>
+                                
+                                <form method="POST" enctype="multipart/form-data" class="career-form">
+                                    <input type="text" name="fname" placeholder="First Name" class="career-form-txt" required>
+                                    <input type="text" name="lname" placeholder="Last Name" class="career-form-txt" required>
+                                    <input type="email" name="email" placeholder="Email" class="career-form-email" required>
+                                    <input type="tel" id="phone" name="phone" pattern="[0-10]{11}" required placeholder="Phone Number" maxlength="11" class="career-form-phone">
+                                    <input type="email" name="email" placeholder="Job Title" class="career-form-email" required>
+                                    <input type="email" name="email" placeholder="School District" class="career-form-email" required>
+                                    
+
+                                    <div class="checkbox-class">
+                                        <p class="name">Solutions of Interest</p>
+                                        <div>
+                                          <input class="checkbox-one" type="checkbox" value="Classroom" id="cb1">
+                                          <label for="cb1">
+                                            <span>Classroom - classroom solution including learning, assessment, curriculum and instruction, special programs, and behavior support.</span>
+                                          </label>
+                                        </div>
+
+                                        <div>
+                                          <input class="checkbox-two" type="checkbox" value="Talent Management" id="cb2">
+                                          <label for="cb2">
+                                            <span>Talent Management - solutions to attract, hire, develop, and retain educators and staff.</span>
+                                          </label>
+                                        </div>
+
+                                        <div>
+                                          <input class="checkbox-three" type="checkbox" value="Attendance Intervention and Communication" id="cb3">
+                                          <label for="cb3">
+                                            <span>Attendance Intervention and Communication - reduce chronic absenteeism and promote stronger collaboration between educators, students, and families.</span>
+                                          </label>
+                                        </div>
+
+                                        <div>
+                                          <input class="checkbox-four" type="checkbox" value="SIS and Enrollment" id="cb4">
+                                          <label for="cb4">
+                                            <span>SIS and Enrollment - student information system, online forums, student enrollment, enrollment analytics.</span>
+                                          </label>
+                                        </div>
+                                      </div>
+                                    
+                                    <textarea placeholder="How can we help you?" name="details" class="career-form-txtarea" required></textarea>
+                                    <input type="submit" value="Submit" name="submit" class="career-form-btn">
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="column moreways">
+                            <div class="moreways-text" style="text-align: right;">
+                                <h6>More ways to contact sales</h6>
+                                <p><i class='bx bxs-message-detail'></i>Chat with our sales team</p>
+                                <p><i class='bx bxs-phone-call'></i>Call sales at 111-222-3334</p>
+                                <p><i class='bx bxs-envelope'></i>Email sales at sales@incognosco.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="back-to-top" id="backToTop">
+            <i class='bx bx-up-arrow-alt'></i>
+        </div>
+
+       <!--Footer--->
+        <section id="contact">
+            <div class="footer">
+                <div class="main">
+                    <div class="list">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">About Us</a></li>
+                            <li><a href="terms.html">Terms & Conditions</a></li>
+                            <li><a href="terms.html">Privacy Policy</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="list">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li><a href="#">12 Onyx St., Brgy. La Paz</a></li>
+                            <li><a href="#">Makati City, Metro Manila</a></li>
+                            <li><a href="#">+1(123)-456-7890</a></li>
+                            <li><a href="#">dlucibelle@gmail.com</a></li>
+                            <li><a href="#">elyzadlaurente@gmail.com</a></li>
+                        </ul>
+                    </div>
+            
+                    <div class="list">
+                        <h4>Connect</h4>
+                        <div class="social">
+                            <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                            <a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt' ></i></a>
+                            <a href="https://twitter.com/login?lang=en"><i class='bx bxl-twitter'></i></a>
+                            <a href="https://www.linkedin.com/"><i class='bx bxl-linkedin'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <h4>Subscription</h4>
+                        <p>Our Incognosco experts have formed a versatile team, ready to meet all your educational platform needs. Stay updated with our latest offerings by subscribing here.</p>
+                        <form action="" method="post">
+                          <input type="email" name="email"><input type="submit"  value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="end-text">
+                <p>Copyright ©2023 All rights reserved | Made by Lucibelle D. Dellomos & Elyza Denise A. Laurente</p>
+            </div>
+        </section>
+
+        <!--Link to js--->
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all .2s linear;
+  text-decoration: none;
+}
+
+header{
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+header.sticky {
+  background: linear-gradient(to bottom right, #8ac4ff 0%, #90ffdc 100%) !important;
+  padding: 10px 6% !important;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px !important;
+  opacity: 0.90 !important;
+}
+
+.menu-item a {
+  color: var(--bg-color) !important;
+}
+
+.menu-item a::before {
+  background-color: var(--bg-color) !important;
+}
+
+.logo.logov2 {
+    display: block !important;
+}
+
+.logo.logov1 {
+    display: none !important;
+}
+
+.logo-container h1,
+.logo-container h2{
+    color: #fff;
+}
+
+.home-career {
+  position: relative;
+  width: 100vw;
+  min-height: 70vh;
+  background: url("../img/career.png");
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding-top: 13%;
+  align-items: center;
+}
+
+.home-text {
+  text-align: center !important;
+  animation: none !important;
+  opacity: 1 !important;
+}
+
+.home-text p {
+  color: var(--bg-color);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.applynow-btn {
+  display: inline-block;
+  font-size: 16px;
+  padding: 15px 30px;
+  background-color: transparent;
+  color: var(--main-color);
+  border-radius: 4px;
+  transition: ease .40s;
+  border: 2px solid #8AC4FF;
+  text-align: center;
+}
+
+.applynow-btn:hover {
+  color: var(--bg-color);
+  transform: scale(1.1);
+  background-color: #8ac4ff;
+  border: 2px solid #8ac4ff;
+}
+
+.career-heading {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.career-text {
+  padding-top: 0.3rem;
+  display: inline-block;
+  font-size: 2.1875rem;
+  font-weight: 600;
+  letter-spacing: 0.0625rem;
+  color: var(--text-color);
+  position: relative;
+  margin: -2rem auto 2rem auto;
+}
+
+.career-text::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(to bottom right, rgba(138, 196, 255, 1) 0%, rgba(144, 255, 220, 1) 100%);
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.career-heading p {
+  font-size: 1.125rem;
+  color: var(--text-color);
+  margin-bottom: 0;
+}
+
+.career-section {
+  width: 80%;
+  height: auto;
+  margin: 0rem auto 7rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px #666;
+}
+
+.career-form {
+  margin-top: .7rem;
+  width: 100%;
+  height: auto;
+  flex: 50%;
+  text-align: left;
+  padding: 5px;
+}
+
+.career-form-txt,
+.career-form-experience,
+.career-form-email,
+.career-form-txtarea,
+.career-form-phone{
+  width: 100% !important;
+  height: 40px !important;
+  color: var(--text-color) !important;
+  border: 1px solid #bcbcbc !important;
+  border-radius: 50px !important;
+  outline: none !important;
+  margin-bottom: 20px !important;
+  padding: 15px !important;
+  font-size: 1.1rem !important;
+  background: #F2F2F2 !important;
+}
+
+.career-form-txt:focus,
+.career-form-experience:focus,
+.career-form-email:focus,
+.career-form-txtarea:focus,
+.career-form-phone:focus {
+  border-color: #00a8e0;
+  box-shadow: 0 0 5px #00a8e0;
+}
+
+.career-form-txtarea {
+  width: 100% !important;
+  height: 130px !important;
+  color: #000 !important;
+  border: 1px solid #bcbcbc !important;
+  border-radius: 10px !important;
+  outline: none !important;
+  margin-bottom: 10px !important;
+  padding: 15px !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 1.1rem !important;
+}
+
+.career-form-txt::placeholder,
+.career-form-experience::placeholder,
+.career-form-email::placeholder,
+.career-form-txtarea::placeholder,
+.career-form-phone::placeholder,
+.career-form-txtarea::placeholder {
+  color: #aaa !important;
+  font-size: 1.1rem !important;
+
+}
+
+.radio-class {
+  width: 100% !important;
+  margin-top: 0rem !important;
+  height: 40px !important;
+  color: #000 !important;
+  margin-bottom: 5rem !important;
+  padding: 10px !important;
+}
+
+.radio-class h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.radio-container {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.radio {
+  flex: 0 0 calc(33.33% - 10px) !important;
+  margin: .3rem !important;
+  font-size: .9rem !important;
+}
+
+.file {
+  width: 100% !important;
+  margin-top: 0rem !important;
+  height: 40px !important;
+  color: #000 !important;
+  margin-bottom: 5rem !important;
+  padding: 10px !important;
+}
+
+.file h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.upload {
+  margin-top: .75rem;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.career-form-btn {
+  color: var(--text-color) !important;
+  float: right !important;
+  margin-right: 1.5rem !important;
+  outline: none !important;
+  border: 2px solid #221314 !important;
+  border-radius: 2rem !important;
+  background: none !important;
+  font-size: 1.5rem !important;
+  cursor: pointer !important;
+  height: 2.8rem !important;
+  margin-top: .7rem !important;
+  margin-bottom: .5rem !important;
+  width: 10rem !important;
+  box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .3) !important;
+  transition: ease .40s !important;
+}
+
+.career-form-btn:hover {
+  letter-spacing: .1rem !important;
+  transform: scale(1) !important;
+  color: var(--bg-color) !important;
+  background-color: #8ac4ff !important;
+  border: 2px solid #8ac4ff !important;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+  .career-form,
+  .career-form-email,
+  .career-form-phone {
+    margin-bottom: 20px !important;
+    width: 100% !important;
+  }
+
+  #menu-icon{
+    color: var(--bg-color);
+  }
+
+  .logo-container h1,
+  .logo-container h2{
+    font-size: 2rem !important;
+  }
+
+  .career-form-txt,
+  .career-form-experience,
+  .career-form-email,
+  .career-form-txtarea,
+  .career-form-phone {
+    font-size: 1rem !important;
+  }
+
+  .career-form-experience{
+    margin-top: 11rem !important;
+  }
+
+  .radio-container {
+    flex-direction: column !important;
+    margin-top: .8rem !important;
+  }
+  
+  .radio {
+    flex: 0 0 100% !important;
+    font-size: 1rem !important;
+  }
+
+  .radio-class,
+  .file {
+    margin-left: 0 !important;
+  }
+
+  .career-form-btn {
+    margin-right: 0 !important;
+    width: 10rem !important;
+    font-size: 1rem !important;
+  }
+}
+
+
+
